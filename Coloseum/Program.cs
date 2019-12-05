@@ -1,4 +1,5 @@
 ﻿using System;
+using Coloseum.Gladiators;
 
 namespace Coloseum
 {
@@ -7,6 +8,9 @@ namespace Coloseum
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Archer archer = new Archer();
+            Console.WriteLine(archer.Name);
+            Console.WriteLine(archer);
         }
     }
 }
