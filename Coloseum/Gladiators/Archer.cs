@@ -6,7 +6,7 @@ namespace Coloseum.Gladiators
     {
         public Archer()
         {
-           this
+           
         }
 
         public static string GenerateName(int len)
