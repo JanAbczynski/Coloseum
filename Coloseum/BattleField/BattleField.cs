@@ -17,11 +17,11 @@ namespace Coloseum.BattleField
                 gladiatorsEnumerator.MoveNext();
 
 
-                while (gladiator1?.HP > 0 || gladiator2?.HP > 0)
-                {
-                    Console.WriteLine(null > 0);
-                    gladiators.Remove()
-                }
+//                while (gladiator1?.HP > 0 || gladiator2?.HP > 0)
+//                {
+//                    Console.WriteLine(null > 0);
+//                    gladiators.Remove()
+//                }
 
             }
         }

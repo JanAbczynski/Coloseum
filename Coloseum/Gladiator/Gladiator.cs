@@ -5,12 +5,11 @@ namespace Coloseum.Gladiators
 {
     public abstract class Gladiator
     {
-
-        public readonly int HP;
+        public int HP { get; protected set; }
         public int SP {get; set;}
         public int DEX {get; set;}
         public int LVL {get; set;}
-        public string Name {set; get;}
+        public string Name {get;}
 
         public Gladiator()
         {
@@ -34,6 +33,11 @@ namespace Coloseum.Gladiators
                 b++;
             }
             return Name;
+        }
+
+        public int GetHP()
+        {
+            return HP;
         }
 
         public override string ToString()
