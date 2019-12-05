@@ -4,7 +4,7 @@ Gladiatorzy
 	- HP [0-1000] - bazowa ilość punktów życia
 	- SP [0-10] - bazowa ilość punktów siły
 	- DEX [0-10] - bazowa ilość punktów zręczności
-	- LVL [0-50] - poziom doświadczenia
+	- LVL [1-50] - poziom doświadczenia
 2. Klasy gladiatorów:
 	- Swordsman (med HP, med SP, med DEX)
 	- Archer (med HP, med SP, high DEX)

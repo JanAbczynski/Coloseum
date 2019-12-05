@@ -10,7 +10,7 @@ namespace Coloseum.Gladiators
             HP = random.Next(700, 1001);
             SP = random.Next(700, 1001);
             DEX = random.Next(1, 301);
-            LVL = 0;
+            LVL = 1;
         }
     }
 }

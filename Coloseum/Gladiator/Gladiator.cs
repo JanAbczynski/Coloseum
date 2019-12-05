@@ -5,10 +5,11 @@ namespace Coloseum.Gladiators
 {
     public abstract class Gladiator
     {
-        public int HP {set; get;}
-        public int SP {set; get;}
-        public int DEX {set; get;}
-        public int LVL {set; get;}
+
+        public readonly int HP;
+        public int SP {get; set;}
+        public int DEX {get; set;}
+        public int LVL {get; set;}
         public string Name {set; get;}
 
         public Gladiator()

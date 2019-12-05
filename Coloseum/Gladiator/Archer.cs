@@ -8,9 +8,9 @@ namespace Coloseum.Gladiators
         {
             Random random = new Random();
             HP = random.Next(300, 700);
-            SP = random.Next(300, 700);
-            DEX = random.Next(700, 1001);
-            LVL = 0;
+            SP = random.Next(3, 7);
+            DEX = random.Next(7, 11);
+            LVL = 1;
         }
     }
 }
