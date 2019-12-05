@@ -1,0 +1,27 @@
+Gladiatorzy
+
+1. Abstrakcyjna klasa Gladiator:
+	- HP [0-1000] - bazowa ilość punktów życia
+	- SP [0-10] - bazowa ilość punktów siły
+	- DEX [0-10] - bazowa ilość punktów zręczności
+	- LVL [0-50] - poziom doświadczenia
+2. Klasy gladiatorów:
+	- Swordsman (med HP, med SP, med DEX)
+	- Archer (med HP, med SP, high DEX)
+	- Assassin (low HP, high SP, high DEX)
+	- Brutal (high HP, high SP, low DEX)
+3. Mechanika walki: ButleFild
+	- System turowy, częstotliwość ataków gladiatora jest zależna od jego poziomu DEX
+	- Ilość zadanych obrażeń zależna jest od jego poziomu SP
+	- HP, SP i DEX są przemnażane przez LVL (im większy poziom, tym lepsze statystyki)
+	- Gladiator wygrywa walkę, gdy zabije przeciwnika (jego HP zostanie zredukowane do 0)
+	- Po wygraniu walki, gladiator otrzymuje nowy poziom
+	- Terminal wyświetla szereg komunikatów opisujących przebieg walki
+4. Mechanika igrzysk (Tournament): Colosseum <--- main   
+	- Gladiatorzy połączeni w pary, pary ustawione w piramidę (np ćwierćfinał-półfinał-finał)
+	- Zwycięzcy przechodzą dalej
+	- Igrzyska trwają aż do wyłonienia zwycięzcy (wszyscy pozostali gladiatorzy zginą)
+	- Możliwość ustalenia rozmiaru piramidy, ilość gladiatorów to 2^(rozmiar piramidy)
+	- Gladiatorzy są wygenerowani losowo (klasy, bazowe statystyki, imiona z puli imion)
+	
+	

@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="BattleField" />
     <Folder Include="Colosseum" />
-    <Folder Include="Gladiators" />
   </ItemGroup>
 
 </Project>
