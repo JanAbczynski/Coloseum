@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="BattleField" />
+    <Folder Include="Colosseum" />
+    <Folder Include="Gladiators" />
+  </ItemGroup>
+
 </Project>
