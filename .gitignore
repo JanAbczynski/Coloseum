@@ -18,7 +18,7 @@ x64/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-.vs
+.vs/
 db.lock
 *_i.c
 *_p.c
