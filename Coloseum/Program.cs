@@ -1,4 +1,5 @@
 ﻿using System;
+using Coloseum.Gladiators;
 
 namespace Coloseum
 {
@@ -6,13 +7,10 @@ namespace Coloseum
     {
         static void Main(string[] args)
         {
-
-            //string input;
-            //Console.Write("Enter Integer: ");
-            //input = Console.ReadLine();
-            //int battleSize = Convert.ToInt32(input);
-            //Console.WriteLine(battleSize * 2);
-            //Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
+            Archer archer = new Archer();
+            Console.WriteLine(archer.Name);
+            Console.WriteLine(archer);
         }
     }
 }

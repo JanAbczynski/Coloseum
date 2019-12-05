@@ -6,6 +6,7 @@ namespace Coloseum.Gladiators
     {
         public Archer()
         {
+<<<<<<< HEAD
            
         }
 
@@ -29,6 +30,13 @@ namespace Coloseum.Gladiators
             return Name;
 
 
+=======
+            Random random = new Random();
+            HP = random.Next(300, 700);
+            SP = random.Next(300, 700);
+            DEX = random.Next(700, 1001);
+            LVL = 0;
+>>>>>>> 75419346c0b7a04b2f4d1c527cef72d5ab06c0c0
         }
     }
 }
