@@ -7,10 +7,9 @@ namespace Coloseum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Archer archer = new Archer();
-            Console.WriteLine(archer.Name);
-            Console.WriteLine(archer);
+            Colosseum.Colosseum colosseum = new Colosseum.Colosseum();
+            colosseum.createGaldiatorsList();
+            colosseum.beginTurnament();
         }
     }
 }

@@ -6,11 +6,10 @@ namespace Coloseum.Gladiators
     {
         public Swordsman()
         {
-            Random random = new Random();
-            HP = random.Next(300, 700);
-            SP = random.Next(3, 7);
-            DEX = random.Next(3, 7);
-            LVL = 1;
+            int factorHP = (int)statFactor.MEDIUM;
+            int factorSP = (int)statFactor.MEDIUM;
+            int factorDEX = (int)statFactor.MEDIUM;
+            battleParametersSetter();
         }
     }
 }

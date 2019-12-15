@@ -6,11 +6,10 @@ namespace Coloseum.Gladiators
     {
         public Brutal()
         {
-            Random random = new Random();
-            HP = random.Next(700, 1001);
-            SP = random.Next(700, 1001);
-            DEX = random.Next(1, 301);
-            LVL = 1;
+            int factorHP = (int)statFactor.HIGH;
+            int factorSP = (int)statFactor.HIGH;
+            int factorDEX = (int)statFactor.LOW;
+            battleParametersSetter();
         }
     }
 }
